@@ -32,6 +32,7 @@ public class Reg extends AppCompatActivity {
 
     private void getDataFromDB(String eemail) { //Поиск в БД пользователя с эмейлом
 
+
         ValueEventListener vListener = new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
